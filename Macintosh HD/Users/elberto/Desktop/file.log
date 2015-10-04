@@ -1,0 +1,429 @@
+2015-10-03 18:15:04 INFO  ContextLoader:187 - Root WebApplicationContext: initialization started
+2015-10-03 18:15:04 INFO  XmlWebApplicationContext:456 - Refreshing Root WebApplicationContext: startup date [Sat Oct 03 18:15:04 MDT 2015]; root of context hierarchy
+2015-10-03 18:15:04 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from ServletContext resource [/WEB-INF/application.xml]
+2015-10-03 18:15:04 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from ServletContext resource [/WEB-INF/security-config.xml]
+2015-10-03 18:15:04 INFO  SpringSecurityCoreVersion:59 - You are running with Spring Security Core 4.0.2.RELEASE
+2015-10-03 18:15:04 WARN  SpringSecurityCoreVersion:62 - **** You are advised to use Spring 4.1.6.RELEASE or later with this version. You are running: 3.0.3.RELEASE
+2015-10-03 18:15:04 INFO  SecurityNamespaceHandler:78 - Spring Security 'config' module version is 4.0.2.RELEASE
+2015-10-03 18:15:04 INFO  FilterInvocationSecurityMetadataSourceParser:158 - Creating access control expression attribute 'hasRole('ROLE_ADMIN')' for /addNewBook.do
+2015-10-03 18:15:04 INFO  AuthenticationConfigBuilder:539 - No login page configured. The default internal one will be used. Use the 'login-page' attribute to set the URL of the login page.
+2015-10-03 18:15:04 INFO  HttpSecurityBeanDefinitionParser:306 - Checking sorted filter chain: [Root bean: class [org.springframework.security.web.context.SecurityContextPersistenceFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 200, Root bean: class [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 400, Root bean: class [org.springframework.security.web.header.HeaderWriterFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 500, Root bean: class [org.springframework.security.web.authentication.logout.LogoutFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 700, <org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0>, order = 1100, Root bean: class [org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1300, Root bean: class [org.springframework.security.web.savedrequest.RequestCacheAwareFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1600, Root bean: class [org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1700, Root bean: class [org.springframework.security.web.authentication.AnonymousAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 2000, Root bean: class [org.springframework.security.web.session.SessionManagementFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 2100, Root bean: class [org.springframework.security.web.access.ExceptionTranslationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 2200, <org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0>, order = 2300]
+2015-10-03 18:15:04 INFO  DefaultListableBeanFactory:549 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@42844258: defining beans [dataSource,jdbcTemplate,entityManagerFactory,transactionManager,jpaTemplate,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.PortResolverImpl#0,org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.CompositeSessionAuthenticationStrategy#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.userDetailsServiceFactory,org.springframework.security.web.DefaultSecurityFilterChain#0,org.springframework.security.provisioning.InMemoryUserDetailsManager#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager]; root of factory hierarchy
+2015-10-03 18:15:05 INFO  LocalContainerEntityManagerFactoryBean:221 - Building JPA container EntityManagerFactory for persistence unit 'avalonSystemPersistence'
+2015-10-03 18:15:05 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-10-03 18:15:05 INFO  Version:41 - HHH000412: Hibernate Core {4.1.4.Final}
+2015-10-03 18:15:05 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-10-03 18:15:05 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2015-10-03 18:15:05 INFO  Ejb3Configuration:527 - HHH000204: Processing PersistenceUnitInfo [
+	name: avalonSystemPersistence
+	...]
+2015-10-03 18:15:05 INFO  ConnectionProviderInitiator:188 - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2015-10-03 18:15:06 INFO  Dialect:122 - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2015-10-03 18:15:06 INFO  LobCreatorBuilder:120 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-03 18:15:06 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-10-03 18:15:06 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-10-03 18:15:06 INFO  Version:56 - Hibernate Validator 4.0.2.GA
+2015-10-03 18:15:06 INFO  DefaultTraversableResolver:89 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+2015-10-03 18:15:06 INFO  DefaultTraversableResolver:89 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+2015-10-03 18:15:06 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-10-03 18:15:06 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-10-03 18:15:06 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-10-03 18:15:07 INFO  TableMetadata:65 - HHH000261: Table found: SYSTEM.BOOK
+2015-10-03 18:15:07 INFO  TableMetadata:66 - HHH000037: Columns: [id, author, title, price, isbn]
+2015-10-03 18:15:07 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-10-03 18:15:07 INFO  TableMetadata:69 - HHH000126: Indexes: [sys_c0033919]
+2015-10-03 18:15:07 INFO  TableMetadata:65 - HHH000261: Table found: SYSTEM.CUSTOMER
+2015-10-03 18:15:07 INFO  TableMetadata:66 - HHH000037: Columns: [id, zip, customerid, email, street, state, lastname, login, firstname, notes, password, companyname, telephone, passwordconfirmed, country, city]
+2015-10-03 18:15:07 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-10-03 18:15:07 INFO  TableMetadata:69 - HHH000126: Indexes: [customer_pk]
+2015-10-03 18:15:07 INFO  TableMetadata:65 - HHH000261: Table found: OE.ORDERS
+2015-10-03 18:15:07 INFO  TableMetadata:66 - HHH000037: Columns: [order_total, sales_rep_id, order_mode, order_date, order_id, order_status, customer_id, promotion_id]
+2015-10-03 18:15:07 INFO  TableMetadata:68 - HHH000108: Foreign keys: [orders_customer_id_fk]
+2015-10-03 18:15:07 INFO  TableMetadata:69 - HHH000126: Indexes: [ord_customer_ix, ord_order_date_ix, order_pk, ord_sales_rep_ix]
+2015-10-03 18:15:07 INFO  TableMetadata:65 - HHH000261: Table found: SYSTEM.ORDERS_BOOK
+2015-10-03 18:15:07 INFO  TableMetadata:66 - HHH000037: Columns: [booksordered_id, orders_id]
+2015-10-03 18:15:07 INFO  TableMetadata:68 - HHH000108: Foreign keys: [fk18b39823e584c5c1, fk18b39823d0d011a2]
+2015-10-03 18:15:07 INFO  TableMetadata:69 - HHH000126: Indexes: []
+2015-10-03 18:15:07 ERROR SchemaUpdate:235 - HHH000388: Unsuccessful: alter table ORDERS add id number(10,0) not null
+2015-10-03 18:15:07 ERROR SchemaUpdate:236 - ORA-01430: column being added already exists in table
+
+2015-10-03 18:15:07 ERROR SchemaUpdate:235 - HHH000388: Unsuccessful: alter table ORDERS add giftWrap number(1,0) not null
+2015-10-03 18:15:07 ERROR SchemaUpdate:236 - ORA-01430: column being added already exists in table
+
+2015-10-03 18:15:07 ERROR SchemaUpdate:235 - HHH000388: Unsuccessful: alter table ORDERS add constraint FK8B7256E5F8D302FB foreign key (customer_id) references Customer
+2015-10-03 18:15:07 ERROR SchemaUpdate:236 - ORA-02267: column type incompatible with referenced column type
+
+2015-10-03 18:15:07 INFO  SchemaUpdate:240 - HHH000232: Schema update complete
+2015-10-03 18:15:07 INFO  DefaultListableBeanFactory:422 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@42844258: defining beans [dataSource,jdbcTemplate,entityManagerFactory,transactionManager,jpaTemplate,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.PortResolverImpl#0,org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.CompositeSessionAuthenticationStrategy#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.userDetailsServiceFactory,org.springframework.security.web.DefaultSecurityFilterChain#0,org.springframework.security.provisioning.InMemoryUserDetailsManager#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager]; root of factory hierarchy
+2015-10-03 18:15:07 INFO  LocalContainerEntityManagerFactoryBean:406 - Closing JPA EntityManagerFactory for persistence unit 'avalonSystemPersistence'
+2015-10-03 18:15:07 ERROR ContextLoader:220 - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.filterChains': Cannot resolve reference to bean 'org.springframework.security.web.DefaultSecurityFilterChain#0' while setting bean property 'sourceList' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.DefaultSecurityFilterChain#0': Cannot resolve reference to bean 'org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0' while setting constructor argument with key [11]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0': Cannot resolve reference to bean 'org.springframework.security.access.vote.AffirmativeBased#0' while setting bean property 'accessDecisionManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.access.vote.AffirmativeBased#0': Cannot create inner bean '(inner bean)' of type [org.springframework.security.web.access.expression.WebExpressionVoter] while setting constructor argument with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#25': Cannot resolve reference to bean 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0' while setting bean property 'expressionHandler'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/springframework/context/expression/BeanFactoryResolver
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedList(BeanDefinitionValueResolver.java:355)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:153)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:557)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:276)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:983)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1660)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.DefaultSecurityFilterChain#0': Cannot resolve reference to bean 'org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0' while setting constructor argument with key [11]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0': Cannot resolve reference to bean 'org.springframework.security.access.vote.AffirmativeBased#0' while setting bean property 'accessDecisionManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.access.vote.AffirmativeBased#0': Cannot create inner bean '(inner bean)' of type [org.springframework.security.web.access.expression.WebExpressionVoter] while setting constructor argument with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#25': Cannot resolve reference to bean 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0' while setting bean property 'expressionHandler'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/springframework/context/expression/BeanFactoryResolver
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedList(BeanDefinitionValueResolver.java:355)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:153)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:143)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:993)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:897)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	... 30 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0': Cannot resolve reference to bean 'org.springframework.security.access.vote.AffirmativeBased#0' while setting bean property 'accessDecisionManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.access.vote.AffirmativeBased#0': Cannot create inner bean '(inner bean)' of type [org.springframework.security.web.access.expression.WebExpressionVoter] while setting constructor argument with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#25': Cannot resolve reference to bean 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0' while setting bean property 'expressionHandler'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/springframework/context/expression/BeanFactoryResolver
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	... 44 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.access.vote.AffirmativeBased#0': Cannot create inner bean '(inner bean)' of type [org.springframework.security.web.access.expression.WebExpressionVoter] while setting constructor argument with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#25': Cannot resolve reference to bean 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0' while setting bean property 'expressionHandler'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/springframework/context/expression/BeanFactoryResolver
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:281)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:125)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedList(BeanDefinitionValueResolver.java:355)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:153)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:621)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:143)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:993)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:897)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	... 54 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#25': Cannot resolve reference to bean 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0' while setting bean property 'expressionHandler'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/springframework/context/expression/BeanFactoryResolver
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:270)
+	... 68 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/springframework/context/expression/BeanFactoryResolver
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:527)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	... 74 more
+Caused by: java.lang.NoClassDefFoundError: org/springframework/context/expression/BeanFactoryResolver
+	at org.springframework.security.access.expression.AbstractSecurityExpressionHandler.setApplicationContext(AbstractSecurityExpressionHandler.java:106)
+	at org.springframework.context.support.ApplicationContextAwareProcessor.invokeAwareInterfaces(ApplicationContextAwareProcessor.java:106)
+	at org.springframework.context.support.ApplicationContextAwareProcessor.postProcessBeforeInitialization(ApplicationContextAwareProcessor.java:85)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:394)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	... 80 more
+Caused by: java.lang.ClassNotFoundException: org.springframework.context.expression.BeanFactoryResolver
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1702)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1547)
+	... 86 more
+2015-10-03 18:16:41 INFO  ContextLoader:187 - Root WebApplicationContext: initialization started
+2015-10-03 18:16:41 INFO  XmlWebApplicationContext:456 - Refreshing Root WebApplicationContext: startup date [Sat Oct 03 18:16:41 MDT 2015]; root of context hierarchy
+2015-10-03 18:16:41 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from ServletContext resource [/WEB-INF/application.xml]
+2015-10-03 18:16:41 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from ServletContext resource [/WEB-INF/security-config.xml]
+2015-10-03 18:16:41 INFO  SpringSecurityCoreVersion:59 - You are running with Spring Security Core 4.0.2.RELEASE
+2015-10-03 18:16:41 WARN  SpringSecurityCoreVersion:62 - **** You are advised to use Spring 4.1.6.RELEASE or later with this version. You are running: 3.0.3.RELEASE
+2015-10-03 18:16:41 INFO  SecurityNamespaceHandler:78 - Spring Security 'config' module version is 4.0.2.RELEASE
+2015-10-03 18:16:41 INFO  FilterInvocationSecurityMetadataSourceParser:158 - Creating access control expression attribute 'hasRole('ROLE_ADMIN')' for /addNewBook.do
+2015-10-03 18:16:41 INFO  AuthenticationConfigBuilder:539 - No login page configured. The default internal one will be used. Use the 'login-page' attribute to set the URL of the login page.
+2015-10-03 18:16:41 INFO  HttpSecurityBeanDefinitionParser:306 - Checking sorted filter chain: [Root bean: class [org.springframework.security.web.context.SecurityContextPersistenceFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 200, Root bean: class [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 400, Root bean: class [org.springframework.security.web.header.HeaderWriterFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 500, Root bean: class [org.springframework.security.web.authentication.logout.LogoutFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 700, <org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0>, order = 1100, Root bean: class [org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1300, Root bean: class [org.springframework.security.web.savedrequest.RequestCacheAwareFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1600, Root bean: class [org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1700, Root bean: class [org.springframework.security.web.authentication.AnonymousAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 2000, Root bean: class [org.springframework.security.web.session.SessionManagementFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 2100, Root bean: class [org.springframework.security.web.access.ExceptionTranslationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 2200, <org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0>, order = 2300]
+2015-10-03 18:16:41 INFO  DefaultListableBeanFactory:549 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@55917247: defining beans [dataSource,jdbcTemplate,entityManagerFactory,transactionManager,jpaTemplate,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.PortResolverImpl#0,org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.CompositeSessionAuthenticationStrategy#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.userDetailsServiceFactory,org.springframework.security.web.DefaultSecurityFilterChain#0,org.springframework.security.provisioning.InMemoryUserDetailsManager#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager]; root of factory hierarchy
+2015-10-03 18:16:41 INFO  LocalContainerEntityManagerFactoryBean:221 - Building JPA container EntityManagerFactory for persistence unit 'avalonSystemPersistence'
+2015-10-03 18:16:41 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-10-03 18:16:41 INFO  Version:41 - HHH000412: Hibernate Core {4.1.4.Final}
+2015-10-03 18:16:41 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-10-03 18:16:41 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2015-10-03 18:16:41 INFO  Ejb3Configuration:527 - HHH000204: Processing PersistenceUnitInfo [
+	name: avalonSystemPersistence
+	...]
+2015-10-03 18:16:42 INFO  ConnectionProviderInitiator:188 - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2015-10-03 18:16:42 INFO  Dialect:122 - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2015-10-03 18:16:42 INFO  LobCreatorBuilder:120 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-03 18:16:42 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-10-03 18:16:42 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-10-03 18:16:42 INFO  Version:56 - Hibernate Validator 4.0.2.GA
+2015-10-03 18:16:42 INFO  DefaultTraversableResolver:89 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+2015-10-03 18:16:42 INFO  DefaultTraversableResolver:89 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+2015-10-03 18:16:42 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-10-03 18:16:42 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-10-03 18:16:43 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-10-03 18:16:43 INFO  TableMetadata:65 - HHH000261: Table found: SYSTEM.BOOK
+2015-10-03 18:16:43 INFO  TableMetadata:66 - HHH000037: Columns: [id, author, title, price, isbn]
+2015-10-03 18:16:43 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-10-03 18:16:43 INFO  TableMetadata:69 - HHH000126: Indexes: [sys_c0033919]
+2015-10-03 18:16:43 INFO  TableMetadata:65 - HHH000261: Table found: SYSTEM.CUSTOMER
+2015-10-03 18:16:43 INFO  TableMetadata:66 - HHH000037: Columns: [id, zip, customerid, email, street, state, lastname, login, firstname, notes, password, companyname, telephone, passwordconfirmed, country, city]
+2015-10-03 18:16:43 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-10-03 18:16:43 INFO  TableMetadata:69 - HHH000126: Indexes: [customer_pk]
+2015-10-03 18:16:43 INFO  TableMetadata:65 - HHH000261: Table found: OE.ORDERS
+2015-10-03 18:16:43 INFO  TableMetadata:66 - HHH000037: Columns: [order_total, sales_rep_id, order_mode, order_date, order_id, order_status, customer_id, promotion_id]
+2015-10-03 18:16:43 INFO  TableMetadata:68 - HHH000108: Foreign keys: [orders_customer_id_fk]
+2015-10-03 18:16:43 INFO  TableMetadata:69 - HHH000126: Indexes: [ord_customer_ix, ord_order_date_ix, order_pk, ord_sales_rep_ix]
+2015-10-03 18:16:43 INFO  TableMetadata:65 - HHH000261: Table found: SYSTEM.ORDERS_BOOK
+2015-10-03 18:16:43 INFO  TableMetadata:66 - HHH000037: Columns: [booksordered_id, orders_id]
+2015-10-03 18:16:43 INFO  TableMetadata:68 - HHH000108: Foreign keys: [fk18b39823e584c5c1, fk18b39823d0d011a2]
+2015-10-03 18:16:43 INFO  TableMetadata:69 - HHH000126: Indexes: []
+2015-10-03 18:16:43 ERROR SchemaUpdate:235 - HHH000388: Unsuccessful: alter table ORDERS add id number(10,0) not null
+2015-10-03 18:16:43 ERROR SchemaUpdate:236 - ORA-01430: column being added already exists in table
+
+2015-10-03 18:16:43 ERROR SchemaUpdate:235 - HHH000388: Unsuccessful: alter table ORDERS add giftWrap number(1,0) not null
+2015-10-03 18:16:43 ERROR SchemaUpdate:236 - ORA-01430: column being added already exists in table
+
+2015-10-03 18:16:43 ERROR SchemaUpdate:235 - HHH000388: Unsuccessful: alter table ORDERS add constraint FK8B7256E5F8D302FB foreign key (customer_id) references Customer
+2015-10-03 18:16:43 ERROR SchemaUpdate:236 - ORA-02267: column type incompatible with referenced column type
+
+2015-10-03 18:16:43 INFO  SchemaUpdate:240 - HHH000232: Schema update complete
+2015-10-03 18:16:43 INFO  DefaultListableBeanFactory:422 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@55917247: defining beans [dataSource,jdbcTemplate,entityManagerFactory,transactionManager,jpaTemplate,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.PortResolverImpl#0,org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.CompositeSessionAuthenticationStrategy#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.userDetailsServiceFactory,org.springframework.security.web.DefaultSecurityFilterChain#0,org.springframework.security.provisioning.InMemoryUserDetailsManager#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager]; root of factory hierarchy
+2015-10-03 18:16:43 INFO  LocalContainerEntityManagerFactoryBean:406 - Closing JPA EntityManagerFactory for persistence unit 'avalonSystemPersistence'
+2015-10-03 18:16:43 ERROR ContextLoader:220 - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.filterChains': Cannot resolve reference to bean 'org.springframework.security.web.DefaultSecurityFilterChain#0' while setting bean property 'sourceList' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.DefaultSecurityFilterChain#0': Cannot resolve reference to bean 'org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0' while setting constructor argument with key [11]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0': Cannot resolve reference to bean 'org.springframework.security.access.vote.AffirmativeBased#0' while setting bean property 'accessDecisionManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.access.vote.AffirmativeBased#0': Cannot create inner bean '(inner bean)' of type [org.springframework.security.web.access.expression.WebExpressionVoter] while setting constructor argument with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#25': Cannot resolve reference to bean 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0' while setting bean property 'expressionHandler'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/springframework/context/expression/BeanFactoryResolver
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedList(BeanDefinitionValueResolver.java:355)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:153)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:557)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:276)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:983)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1660)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.DefaultSecurityFilterChain#0': Cannot resolve reference to bean 'org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0' while setting constructor argument with key [11]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0': Cannot resolve reference to bean 'org.springframework.security.access.vote.AffirmativeBased#0' while setting bean property 'accessDecisionManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.access.vote.AffirmativeBased#0': Cannot create inner bean '(inner bean)' of type [org.springframework.security.web.access.expression.WebExpressionVoter] while setting constructor argument with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#25': Cannot resolve reference to bean 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0' while setting bean property 'expressionHandler'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/springframework/context/expression/BeanFactoryResolver
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedList(BeanDefinitionValueResolver.java:355)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:153)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:143)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:993)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:897)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	... 30 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0': Cannot resolve reference to bean 'org.springframework.security.access.vote.AffirmativeBased#0' while setting bean property 'accessDecisionManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.access.vote.AffirmativeBased#0': Cannot create inner bean '(inner bean)' of type [org.springframework.security.web.access.expression.WebExpressionVoter] while setting constructor argument with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#25': Cannot resolve reference to bean 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0' while setting bean property 'expressionHandler'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/springframework/context/expression/BeanFactoryResolver
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	... 44 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.access.vote.AffirmativeBased#0': Cannot create inner bean '(inner bean)' of type [org.springframework.security.web.access.expression.WebExpressionVoter] while setting constructor argument with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#25': Cannot resolve reference to bean 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0' while setting bean property 'expressionHandler'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/springframework/context/expression/BeanFactoryResolver
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:281)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:125)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedList(BeanDefinitionValueResolver.java:355)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:153)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:621)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:143)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:993)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:897)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	... 54 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#25': Cannot resolve reference to bean 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0' while setting bean property 'expressionHandler'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/springframework/context/expression/BeanFactoryResolver
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:270)
+	... 68 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/springframework/context/expression/BeanFactoryResolver
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:527)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	... 74 more
+Caused by: java.lang.NoClassDefFoundError: org/springframework/context/expression/BeanFactoryResolver
+	at org.springframework.security.access.expression.AbstractSecurityExpressionHandler.setApplicationContext(AbstractSecurityExpressionHandler.java:106)
+	at org.springframework.context.support.ApplicationContextAwareProcessor.invokeAwareInterfaces(ApplicationContextAwareProcessor.java:106)
+	at org.springframework.context.support.ApplicationContextAwareProcessor.postProcessBeforeInitialization(ApplicationContextAwareProcessor.java:85)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:394)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	... 80 more
+Caused by: java.lang.ClassNotFoundException: org.springframework.context.expression.BeanFactoryResolver
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1702)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1547)
+	... 86 more
+2015-10-03 18:18:34 INFO  ContextLoader:187 - Root WebApplicationContext: initialization started
+2015-10-03 18:18:34 INFO  XmlWebApplicationContext:456 - Refreshing Root WebApplicationContext: startup date [Sat Oct 03 18:18:34 MDT 2015]; root of context hierarchy
+2015-10-03 18:18:34 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from ServletContext resource [/WEB-INF/application.xml]
+2015-10-03 18:18:34 INFO  DefaultListableBeanFactory:549 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@8d58eff: defining beans [dataSource,jdbcTemplate,entityManagerFactory,transactionManager,jpaTemplate,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor]; root of factory hierarchy
+2015-10-03 18:18:34 INFO  LocalContainerEntityManagerFactoryBean:221 - Building JPA container EntityManagerFactory for persistence unit 'avalonSystemPersistence'
+2015-10-03 18:18:34 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-10-03 18:18:34 INFO  Version:41 - HHH000412: Hibernate Core {4.1.4.Final}
+2015-10-03 18:18:34 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-10-03 18:18:34 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2015-10-03 18:18:35 INFO  Ejb3Configuration:527 - HHH000204: Processing PersistenceUnitInfo [
+	name: avalonSystemPersistence
+	...]
+2015-10-03 18:18:35 INFO  ConnectionProviderInitiator:188 - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2015-10-03 18:18:36 INFO  Dialect:122 - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2015-10-03 18:18:36 INFO  LobCreatorBuilder:120 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-03 18:18:36 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-10-03 18:18:36 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-10-03 18:18:36 INFO  Version:56 - Hibernate Validator 4.0.2.GA
+2015-10-03 18:18:36 INFO  DefaultTraversableResolver:89 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+2015-10-03 18:18:36 INFO  DefaultTraversableResolver:89 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+2015-10-03 18:18:36 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-10-03 18:18:36 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-10-03 18:18:36 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-10-03 18:18:36 INFO  TableMetadata:65 - HHH000261: Table found: SYSTEM.BOOK
+2015-10-03 18:18:36 INFO  TableMetadata:66 - HHH000037: Columns: [id, author, title, price, isbn]
+2015-10-03 18:18:36 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-10-03 18:18:36 INFO  TableMetadata:69 - HHH000126: Indexes: [sys_c0033919]
+2015-10-03 18:18:36 INFO  TableMetadata:65 - HHH000261: Table found: SYSTEM.CUSTOMER
+2015-10-03 18:18:36 INFO  TableMetadata:66 - HHH000037: Columns: [id, zip, customerid, email, street, state, lastname, login, firstname, notes, password, companyname, telephone, passwordconfirmed, country, city]
+2015-10-03 18:18:36 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-10-03 18:18:36 INFO  TableMetadata:69 - HHH000126: Indexes: [customer_pk]
+2015-10-03 18:18:36 INFO  TableMetadata:65 - HHH000261: Table found: OE.ORDERS
+2015-10-03 18:18:36 INFO  TableMetadata:66 - HHH000037: Columns: [order_total, sales_rep_id, order_mode, order_date, order_id, order_status, customer_id, promotion_id]
+2015-10-03 18:18:36 INFO  TableMetadata:68 - HHH000108: Foreign keys: [orders_customer_id_fk]
+2015-10-03 18:18:36 INFO  TableMetadata:69 - HHH000126: Indexes: [ord_customer_ix, ord_order_date_ix, order_pk, ord_sales_rep_ix]
+2015-10-03 18:18:36 INFO  TableMetadata:65 - HHH000261: Table found: SYSTEM.ORDERS_BOOK
+2015-10-03 18:18:36 INFO  TableMetadata:66 - HHH000037: Columns: [booksordered_id, orders_id]
+2015-10-03 18:18:36 INFO  TableMetadata:68 - HHH000108: Foreign keys: [fk18b39823e584c5c1, fk18b39823d0d011a2]
+2015-10-03 18:18:36 INFO  TableMetadata:69 - HHH000126: Indexes: []
+2015-10-03 18:18:36 ERROR SchemaUpdate:235 - HHH000388: Unsuccessful: alter table ORDERS add id number(10,0) not null
+2015-10-03 18:18:36 ERROR SchemaUpdate:236 - ORA-01430: column being added already exists in table
+
+2015-10-03 18:18:36 ERROR SchemaUpdate:235 - HHH000388: Unsuccessful: alter table ORDERS add giftWrap number(1,0) not null
+2015-10-03 18:18:36 ERROR SchemaUpdate:236 - ORA-01430: column being added already exists in table
+
+2015-10-03 18:18:36 ERROR SchemaUpdate:235 - HHH000388: Unsuccessful: alter table ORDERS add constraint FK8B7256E5F8D302FB foreign key (customer_id) references Customer
+2015-10-03 18:18:36 ERROR SchemaUpdate:236 - ORA-02267: column type incompatible with referenced column type
+
+2015-10-03 18:18:36 INFO  SchemaUpdate:240 - HHH000232: Schema update complete
+2015-10-03 18:18:36 INFO  ContextLoader:214 - Root WebApplicationContext: initialization completed in 2366 ms
+2015-10-03 18:18:36 INFO  DispatcherServlet:301 - FrameworkServlet 'Dispatcher': initialization started
+2015-10-03 18:18:36 INFO  XmlWebApplicationContext:456 - Refreshing WebApplicationContext for namespace 'Dispatcher-servlet': startup date [Sat Oct 03 18:18:36 MDT 2015]; parent: Root WebApplicationContext
+2015-10-03 18:18:36 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from ServletContext resource [/WEB-INF/Dispatcher-servlet.xml]
+2015-10-03 18:18:36 INFO  ClassPathBeanDefinitionScanner:178 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-10-03 18:18:36 INFO  DefaultListableBeanFactory:549 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@69f49658: defining beans [cartManagementController,createNewBookController,findByAuthorController,viewAllBooksController,accountServiceDao,bookServiceDao,cart,bookValidator,accountsService,bookService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,messageSource,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,viewResolver,viewResolverURL,flowExecutor,org.springframework.binding.convert.service.DefaultConversionService#0,org.springframework.webflow.expression.spel.WebFlowSpringELExpressionParser#0,org.springframework.webflow.mvc.builder.MvcViewFactoryCreator#0,org.springframework.webflow.engine.builder.support.FlowBuilderServices#0,flowRegistry,flowMappings,org.springframework.webflow.mvc.servlet.FlowHandlerAdapter#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@8d58eff
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/addToCart] onto handler [cartManagementController]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/addToCart.*] onto handler [cartManagementController]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/addToCart/] onto handler [cartManagementController]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/viewCart] onto handler [cartManagementController]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/viewCart.*] onto handler [cartManagementController]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/viewCart/] onto handler [cartManagementController]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/deletFromCart] onto handler [cartManagementController]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/deletFromCart.*] onto handler [cartManagementController]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/deletFromCart/] onto handler [cartManagementController]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/addNewBook] onto handler [com.virtualpairprogrammers.control.CreateNewBookController@20ce4de8]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/addNewBook.*] onto handler [com.virtualpairprogrammers.control.CreateNewBookController@20ce4de8]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/addNewBook/] onto handler [com.virtualpairprogrammers.control.CreateNewBookController@20ce4de8]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/findByAuthor] onto handler [com.virtualpairprogrammers.control.FindByAuthorController@41938a35]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/findByAuthor.*] onto handler [com.virtualpairprogrammers.control.FindByAuthorController@41938a35]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/findByAuthor/] onto handler [com.virtualpairprogrammers.control.FindByAuthorController@41938a35]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/looseSearch] onto handler [com.virtualpairprogrammers.control.FindByAuthorController@41938a35]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/looseSearch.*] onto handler [com.virtualpairprogrammers.control.FindByAuthorController@41938a35]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/looseSearch/] onto handler [com.virtualpairprogrammers.control.FindByAuthorController@41938a35]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/viewAllBooks] onto handler [com.virtualpairprogrammers.control.ViewAllBooksController@1f44c624]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/viewAllBooks.*] onto handler [com.virtualpairprogrammers.control.ViewAllBooksController@1f44c624]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/viewAllBooks/] onto handler [com.virtualpairprogrammers.control.ViewAllBooksController@1f44c624]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/viewAllBooksPDF] onto handler [com.virtualpairprogrammers.control.ViewAllBooksController@1f44c624]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/viewAllBooksPDF.*] onto handler [com.virtualpairprogrammers.control.ViewAllBooksController@1f44c624]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/viewAllBooksPDF/] onto handler [com.virtualpairprogrammers.control.ViewAllBooksController@1f44c624]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/viewAllBooksEXCEL] onto handler [com.virtualpairprogrammers.control.ViewAllBooksController@1f44c624]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/viewAllBooksEXCEL.*] onto handler [com.virtualpairprogrammers.control.ViewAllBooksController@1f44c624]
+2015-10-03 18:18:37 INFO  DefaultAnnotationHandlerMapping:411 - Mapped URL path [/viewAllBooksEXCEL/] onto handler [com.virtualpairprogrammers.control.ViewAllBooksController@1f44c624]
+2015-10-03 18:18:37 INFO  DefaultTraversableResolver:89 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+2015-10-03 18:18:37 INFO  DispatcherServlet:320 - FrameworkServlet 'Dispatcher': initialization completed in 795 ms
+2015-10-03 18:19:04 INFO  GenericWebApplicationContext:456 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4d9d9a23: startup date [Sat Oct 03 18:19:04 MDT 2015]; parent: WebApplicationContext for namespace 'Dispatcher-servlet'
+2015-10-03 18:19:04 INFO  DefaultListableBeanFactory:549 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@552baab7: defining beans [booksReportPDF,booksReportEXCEL]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@69f49658
+2015-10-03 19:07:29 INFO  XmlWebApplicationContext:1002 - Closing WebApplicationContext for namespace 'Dispatcher-servlet': startup date [Sat Oct 03 18:18:36 MDT 2015]; parent: Root WebApplicationContext
+2015-10-03 19:07:29 INFO  DefaultListableBeanFactory:422 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@69f49658: defining beans [cartManagementController,createNewBookController,findByAuthorController,viewAllBooksController,accountServiceDao,bookServiceDao,cart,bookValidator,accountsService,bookService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,messageSource,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,viewResolver,viewResolverURL,flowExecutor,org.springframework.binding.convert.service.DefaultConversionService#0,org.springframework.webflow.expression.spel.WebFlowSpringELExpressionParser#0,org.springframework.webflow.mvc.builder.MvcViewFactoryCreator#0,org.springframework.webflow.engine.builder.support.FlowBuilderServices#0,flowRegistry,flowMappings,org.springframework.webflow.mvc.servlet.FlowHandlerAdapter#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@8d58eff
+2015-10-03 19:07:29 INFO  GenericWebApplicationContext:1002 - Closing org.springframework.web.context.support.GenericWebApplicationContext@4d9d9a23: startup date [Sat Oct 03 18:19:04 MDT 2015]; parent: WebApplicationContext for namespace 'Dispatcher-servlet'
+2015-10-03 19:07:29 INFO  DefaultListableBeanFactory:422 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@552baab7: defining beans [booksReportPDF,booksReportEXCEL]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@69f49658
+2015-10-03 19:07:29 INFO  XmlWebApplicationContext:1002 - Closing Root WebApplicationContext: startup date [Sat Oct 03 18:18:34 MDT 2015]; root of context hierarchy
+2015-10-03 19:07:29 INFO  DefaultListableBeanFactory:422 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@8d58eff: defining beans [dataSource,jdbcTemplate,entityManagerFactory,transactionManager,jpaTemplate,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor]; root of factory hierarchy
+2015-10-03 19:07:29 INFO  LocalContainerEntityManagerFactoryBean:406 - Closing JPA EntityManagerFactory for persistence unit 'avalonSystemPersistence'
