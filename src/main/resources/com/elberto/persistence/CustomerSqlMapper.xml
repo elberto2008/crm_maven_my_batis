@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.elberto.persistence.CustomerSqlMapper">
+
+  <cache />
+  
+  
+
+  <select id="getCustomerByIdSqlMapper" parameterType="string" resultType="Customer">
+    SELECT * 
+    
+    FROM  CUSTOMER  WHERE CUSTOMERID = #{id}
+  </select>
+
+  <select id="getAllCustomersSqlMapper" resultType="Customer">
+    SELECT *
+      
+    FROM CUSTOMER
+  </select>
+
+  <delete id="deleteCustomerByIdSqlMapper" parameterType="string">
+   	DELETE 
+   	
+   	FROM CUSTOMER  WHERE CUSTOMERID=#{id}"
+
+  </delete>
+
+  <select id="getNextAvaillableCustomerIDSqlMapper" resultType="string">
+	SELECT 
+	 CUSTOMER_ID_SEQ.nextval
+	 
+	FROM DUAL
+  </select>
+
+
+
+  <select id="getByNameSqlMapper" parameterType="string" resultType="Customer">
+	SELECT * 
+	
+	FROM CUSTOMER WHERE NAME=#{name}"
+  </select>
+
+
+
+  <update id="updateSqlMapper" parameterType="Customer">
+    UPDATE  CUSTOMER
+      SET COMPANYNAME=#{companyName}, 
+      	  EMAIL=#{email},
+      	  TELEPHONE=#{telephone},
+      	  NOTES=#{notes} 
+		  WHERE CUSTOMERID=#{customerId}
+  </update>
+
+
+
+</mapper>
