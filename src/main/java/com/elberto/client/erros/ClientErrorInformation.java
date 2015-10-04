@@ -1,7 +1,7 @@
 package com.elberto.client.erros;
 
 import javax.xml.bind.annotation.XmlRootElement;
-
+//comment 
 @XmlRootElement
 public class ClientErrorInformation 
 {
